@@ -2,7 +2,7 @@
  * @typedef {Object} AppData
  * @property {string} name - Nome do usuário
  * @property {number} age - Idade do usuário
- * @property {string} img - URL da imagem do usuário
+
  */
 
 /**
@@ -16,9 +16,18 @@ const MyNameApp = {
     return {
       name: "José Cleiton",
       age: 30,
-      img: "https://avatars.githubusercontent.com/u/11314585?v=4"
+      input_name: "",
+      
     }
-  }
+
+  },
+  methods: {
+    submitForm(e) { 
+      e.preventDefault()
+      this.name = this.input_name
+    }
+  },
+
 }
 
 Vue.createApp(MyNameApp).mount('#app')
