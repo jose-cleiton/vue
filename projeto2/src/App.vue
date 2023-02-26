@@ -1,10 +1,15 @@
 <template>
-  <h1>Deu ceeeerto!</h1>
+  <DeuCerto/>
 </template>
 
+
 <script>
+import DeuCerto from './components/DeuCerto.vue'
 
 export default {
   name: 'App',
+  components: {
+    DeuCerto
+  }
 }
 </script>
