@@ -6,17 +6,8 @@
  
 </template>
 
-<script>
-import './styles/global.css'
-import AppHeader from './components/AppHeader'
+<script src="./App.js">
 
-export default {
-  name: 'App',
-  components: {
-    AppHeader
-    
-  }
-}
 </script>
 
 <style>
