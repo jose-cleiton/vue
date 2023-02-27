@@ -1,7 +1,5 @@
-<template>
-  <footer>
-    
-  </footer>
+<template src="./Footer.html">
+ 
 
 
 </template>
