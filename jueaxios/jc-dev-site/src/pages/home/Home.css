@@ -1,3 +1,18 @@
 main{
   background-color: var(--color-background-home);
+  justify-content: center;
+  align-items: center;
+}
+
+text-top{
+  color: var(--color-text-light);
+  font-size: 22px;
+  margin-bottom: 20px;
+  
+}
+text-button{
+  color: var(--color-text-light);
+  font-size: 18px;
+  margin-top: 20px;
+  
 }
