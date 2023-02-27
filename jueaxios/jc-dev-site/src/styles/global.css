@@ -29,5 +29,14 @@ a:hover{
 }
 .container{
   width: 90%;
+  
  
+}
+
+main{
+  width: 100%;
+  height: calc(100vh - 120px);
+  display: flex;
+
+
 }

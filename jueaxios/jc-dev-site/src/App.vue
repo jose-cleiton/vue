@@ -2,6 +2,7 @@
 
 <div id="app">
   <AppHeader/>
+  <Home/>
 </div>
  
 </template>
